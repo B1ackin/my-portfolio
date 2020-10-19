@@ -1,6 +1,7 @@
 import React from 'react';
 import style from "./Portfolio.module.css"
 import styleContainer from "../common/styles/Container.module.css";
+import Project from "./portfolio-project/PortfolioProject";
 
 
 function Portfolio() {
@@ -8,12 +9,12 @@ function Portfolio() {
         <div className={style.portfolio}>
             <div className= {`${styleContainer.container} ${style.portfolioContainer}`}>
             <h2 className={style.title}>Project</h2>
-            <div>
-                <div></div>
-                <div>
-                    Портфолио
-                </div>
+            <div className={style.project}>
+                <Project/>
+                <Project/>
             </div>
+
+
             </div>
         </div>
     );

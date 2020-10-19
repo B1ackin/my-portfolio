@@ -4,6 +4,7 @@ import Header from "./header/Header";
 import Main from "./main/Main";
 import Skills from "./skills/Skills";
 import Skill from "./skills/skill/Skill";
+import Portfolio from "./portfolio/Portfolio";
 
 
 
@@ -13,7 +14,7 @@ function App() {
         <Header/>
         <Main />
         <Skills />
-
+        <Portfolio/>
     </div>
   );
 }

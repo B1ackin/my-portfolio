@@ -13,6 +13,8 @@ function Skills() {
                     <Skill title={"JS"} decription={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eos esse eum explicabo"}/>
                     <Skill title={"CSS"} decription={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eos esse eum explicabo"}/>
                     <Skill title={"React"} decription={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eos esse eum explicab"}/>
+                    </div>
+                    <div className={style.skillsTwo}>
                     <Skill title={"REDUX"} decription={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eos esse eum explicabo"}/>
                     <Skill title={"CSS"} decription={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eos esse eum explicabo"}/>
                     <Skill title={"React"} decription={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eos esse eum explicab"}/>

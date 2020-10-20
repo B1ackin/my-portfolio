@@ -13,12 +13,20 @@
     background-color: #eeeef5;
 }
 .skills {
-
-    border: 1px solid;
     width: 100%;
+    border: 1px solid tomato;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #7facc3;
     flex-wrap: wrap;
 
 }
+.skillsTwo {
+    width: 100%;
+    border: 1px solid tomato;
+    display: flex;
+    justify-content: space-around;
+    background-color: #7facc3;
+    flex-wrap: wrap;
 
+}

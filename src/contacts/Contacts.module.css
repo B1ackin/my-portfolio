@@ -1,0 +1,18 @@
+.portfolio {
+    height: 100vh;
+    background-color: #61dafb;
+}
+.title {
+    background-color: #eeeef5;
+}
+.portfolioContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.project {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

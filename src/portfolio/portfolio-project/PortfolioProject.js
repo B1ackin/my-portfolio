@@ -10,8 +10,8 @@ function Project() {
                 <button className={style.button}>Смотреть</button>
             </div>
             <div className={style.text}>
-                <span>Название проекта</span>
-                <span>Краткое описание</span>
+                <div>Название проекта</div>
+                <div>Краткое описание</div>
             </div>
         </div>
     );

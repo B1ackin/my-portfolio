@@ -12,6 +12,7 @@ function Portfolio() {
             <div className={style.project}>
                 <Project/>
                 <Project/>
+
             </div>
 
 

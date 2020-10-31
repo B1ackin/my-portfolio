@@ -1,18 +1,21 @@
-.portfolio {
-    height: 100vh;
-    background-color: #61dafb;
+.contacts {
+    height: 50vh;
+    background-color: #eeeef5;
 }
 .title {
     background-color: #eeeef5;
 }
-.portfolioContainer {
+.contactsContainer {
     justify-content: flex-start;
     flex-direction: column;
 }
-.project {
+.contact {
     border: 1px solid;
-    width: 100%;
+    width: 85%;
     display: flex;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
     flex-wrap: wrap;
+}
+.input {
+    width: 100%;
 }

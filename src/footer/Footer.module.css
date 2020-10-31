@@ -1,18 +1,24 @@
-.portfolio {
-    min-height: 100vh;
-    background-color: #61dafb;
+.footer {
+    min-height: 30vh;
+    background-color: #d4ffc0;
 }
 .title {
     background-color: #eeeef5;
 }
-.portfolioContainer {
+.footerContainer {
     justify-content: flex-start;
     flex-direction: column;
 }
-.project {
+.social {
     border: 1px solid;
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: #eeeef5;
 }
